@@ -85,3 +85,13 @@ body {
   @include flex-center-row;
   gap: 1.5rem;
 }
+
+// Countdown Over Page
+.countdown-over h1 {
+  font-family: 'Red Hat Text';
+  font-size: $font-size;
+  font-weight: $weights;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  color: $color-white;
+}

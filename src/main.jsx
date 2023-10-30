@@ -6,11 +6,13 @@ import App from './App.jsx'
 
 const router = createBrowserRouter([
   {
-    path: '/',
+    path: '/countdown',
     element: <App />
   },
 ])
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <RouterProvider router={router} />
+  <React.StrictMode>
+    <RouterProvider router={router} />
+  </React.StrictMode>
 )
